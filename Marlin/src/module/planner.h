@@ -40,7 +40,7 @@
   // Disable this option to save 120 bytes of PROGMEM,
   // but incur increased computation and a reduction
   // in accuracy.
-  #define JD_USE_LOOKUP_TABLE
+//  #define JD_USE_LOOKUP_TABLE // TODO Reenable if/when bug is fixed
 #endif
 
 #include "motion.h"
